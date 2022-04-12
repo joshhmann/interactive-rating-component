@@ -6,7 +6,75 @@
         color: hsl(228, 45%, 44%); 
     }
 
+    html {
+        background-color: hsl(216, 12%, 8%);
+        font-size: 15px
+    }
+
     body {
         font-family: 'Overpass', sans-serif;
-        font-size: 15px;
+        color: hsl(217, 12%, 63%);
+        
+    }
+
+    h1 {
+        color: hsl(0, 0%, 100%);
+        text-align: left;
+    }
+
+    p {
+        text-align: left;
+    }
+
+    .start-state {
+        
+        margin: auto;
+        padding: 1.5em;
+        width: 350px;
+        height: auto;
+        outline: solid 1px black;
+        background-color: hsl(213, 19%, 18%);
+        border-radius: 16px;
+    }
+
+    
+
+    .ratebutton {
+        display: flex;
+        
+    }
+
+    .star {
+        background-color: hsl(216, 12%, 54%, 15%);
+        border: none;
+        border-radius: 50%;
+        color:hsl(217, 12%, 63%);
+        padding: 1rem;
+
+    }
+
+    .numberbutton {
+        background-color: hsl(216, 12%, 54%, 15%);
+        border: none;
+        height: 3rem;
+        width: 3rem;
+        border-radius: 50%;
+        color:hsl(217, 12%, 63%);
+        margin: 10px;
+        
+    }
+
+    input[type=submit] {
+        background-color: hsl(25, 97%, 53%) ;
+    }
+
+    .submitorange {
+        
+        width: 325px;
+        border: none;
+        height: 3rem;
+        border-radius: 25px;
+        color:hsl(0, 0%, 100%);
+        letter-spacing: 2px;
+        text-align: center;
     }
