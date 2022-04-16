@@ -37,6 +37,12 @@
         border-radius: 16px;
     }
 
+    .thankYouImg {
+        width: auto;
+        margin-left: 25%;
+        
+    }
+
     
 
     .ratebutton {
@@ -72,14 +78,8 @@
         transition-property: background-color;
     }
 
-    
-    
-
-    input[type=submit] {
-        background-color: hsl(25, 97%, 53%) ;
-    }
-
     .submitorange {
+        background-color: hsl(25, 97%, 53%);
         justify-content: center;
         border: none;
         width: 325px;
@@ -96,4 +96,12 @@
         transition-delay: 25ms;
         transition-duration: 125ms;
         transition-property: background-color;
+    }
+
+    #thankYouSection { 
+        display: none;
+    }
+
+    #rateStartState{
+        display: block;
     }

@@ -13,30 +13,27 @@
 <body>
 
   <!-- Rating state start -->
-<div class="start-state">
+<div class="start-state" id="rateStartState">
   <img src="/images/icon-star.svg" alt="" class="star">
   <h1>How did we do?</h1>
   <p>Please let us know how we did with your support request. All feedback is appreciated
   to help us improve our offering!</p>
   <div class="ratebutton">
-    <form action="get">      
-      <input type="button" value="1" class="numberbutton" id="rating1">
-      <input type="button" value="2" class="numberbutton" id="rating2">
-      <input type="button" value="3" class="numberbutton" id="rating3">
-      <input type="button" value="4" class="numberbutton" id="rating4">
-      <input type="button" value="5" class="numberbutton" id="rating5">
-    </form>
+    <button value="1"class="numberbutton">1</button>
+    <button value="2"class="numberbutton">2</button>
+    <button value="3"class="numberbutton">3</button>
+    <button value="4"class="numberbutton">4</button>
+    <button value="5"class="numberbutton">5</button>
   </div>
-    <input type="submit" value="SUBMIT" class="submitorange">
+    <button class="submitorange" onclick="rateState()">SUBMIT</button>
 </div>
 
   <!-- Rating state end -->
 
   <!-- Thank you state start -->
-<div id="thankyousection">
-  <img src="/images/illustration-thank-you.svg" alt="">
-  <p>You selected
-    <!-- Add rating here --> out of 5</p>  
+<div class="start-state"id="thankYouSection">
+  <img class="thankYouImg" src="/images/illustration-thank-you.svg" alt="thank you illustration">
+  <p class="text"></p> 
   <h1>Thank You!</h1>
   <p>We appreciate you taking the time to give a rating. If you ever need more support,
   don’t hesitate to get in touch!</p>
