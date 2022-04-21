@@ -19,7 +19,7 @@
 
     h1 {
         color: hsl(0, 0%, 100%);
-        text-align: left;
+        text-align: center;
     }
 
     p {
@@ -27,14 +27,18 @@
     }
 
     .start-state {
-        
+        position: absolute;
         margin: auto;
-        padding: 1.5em;
         width: 350px;
-        height: auto;
+        top: 50%;
+        left: 50%;
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        padding: 1.5em;
         border: none;
         background-color: hsl(213, 19%, 18%);
         border-radius: 16px;
+
     }
 
     .thankYouImg {
@@ -43,8 +47,19 @@
         
     }
 
-    
-
+    .text {
+        color:hsl(25, 97%, 53%);
+        text-align: center;
+        background-color: hsl(216, 12%, 54%, 15%);
+        border: none;
+        border-radius: 30px;
+        padding: 5px;
+        margin-left: 25%;
+        margin-right: 25%;
+        width: auto;
+        
+        
+    }
     .ratebutton {
         display: flex;
         justify-content: center;
@@ -88,6 +103,10 @@
         color:hsl(0, 0%, 100%);
         letter-spacing: 2px;
         margin-left: 15px;
+    }
+
+    .thankyoup {
+        text-align: center;
     }
 
     .submitorange:hover {
