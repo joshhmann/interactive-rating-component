@@ -1,4 +1,5 @@
 # Frontend Mentor - Interactive rating component solution
+[![Netlify Status](https://api.netlify.com/api/v1/badges/2330e25f-5c7b-4141-89f7-6922ffbc2bad/deploy-status)](https://app.netlify.com/sites/euphonious-fairy-22ffd8/deploys)
 
 This is a solution to the [Interactive rating component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/interactive-rating-component-koxpeBUmI). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
@@ -36,6 +37,7 @@ Users should be able to:
 
 - Solution URL: [Ahttps://github.com/joshhmann/interactive-rating-component](https://github.com/joshhmann/interactive-rating-component)
 - Live Site URL: [https://euphonious-fairy-22ffd8.netlify.app/](https://euphonious-fairy-22ffd8.netlify.app/)
+- [![Netlify Status](https://api.netlify.com/api/v1/badges/2330e25f-5c7b-4141-89f7-6922ffbc2bad/deploy-status)](https://app.netlify.com/sites/euphonious-fairy-22ffd8/deploys)
 
 ## My process
 
